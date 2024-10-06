@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Major+Mono+Display&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+main{
+    width: 100%;
+    margin-top: 15%;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 128px;
+    font-family: Lemon, sans-serif;
+    margin: 0;
+    color: #ffff;
+}
+
+h3{
+    color: #ffff;
+    font-family: Lemon, serif;
+    font-size: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 20% 0 0 0;
+}
+
+#boton{
+    width: 25vw;
+    height: 7vw;
+    font-size: 30px;
+    background-color: #fafafa10;
+    border: 3px solid #fafafa10;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    transition: 3s;
+    
+
+}
+h4{
+    color: #ffff;
+    font-family: "Major Mono Display", monospace;
+}
+#boton:hover{
+    background: #480048;
+    border: #480048;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+    color: #C04848;
+
+}
+
+
+
+
